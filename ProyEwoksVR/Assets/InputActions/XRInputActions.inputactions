@@ -1,0 +1,65 @@
+{
+    "name": "XRInputActions",
+    "maps": [
+        {
+            "name": "BalloonActions",
+            "id": "f7712117-b8f7-410d-a71a-52ea242c56ad",
+            "actions": [
+                {
+                    "name": "ThrowBalloon",
+                    "type": "Button",
+                    "id": "5e602f9f-3f03-4d4e-ba7f-6fbbcd7a76f6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PrepareBalloon",
+                    "type": "Button",
+                    "id": "2e68544d-b16e-424e-9a24-9ef5b3a60e89",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f0e2a0e6-36c9-46cc-b02a-6e90be12b839",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThrowBalloon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "12884aa1-4cf8-4b01-8606-617478b374a4",
+                    "path": "<XRController>/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThrowBalloon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7ade9193-2851-42d0-913e-05122853c30d",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrepareBalloon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
