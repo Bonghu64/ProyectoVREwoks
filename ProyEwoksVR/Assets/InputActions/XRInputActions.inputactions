@@ -39,7 +39,7 @@
                 {
                     "name": "",
                     "id": "12884aa1-4cf8-4b01-8606-617478b374a4",
-                    "path": "<XRController>/{PrimaryButton}",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -51,6 +51,17 @@
                     "name": "",
                     "id": "7ade9193-2851-42d0-913e-05122853c30d",
                     "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrepareBalloon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "67921c19-ca31-4828-b136-16ef3d9f87c2",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
